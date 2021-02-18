@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sf-arrows .sf-with-ul:after {
   content: "\f107";
-  position: absolute;
+  position:  absolute;
   right: 15px;
   font-family: FontAwesome;
   font-style: normal;
@@ -332,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(0, 0, 0);
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
 }
 
@@ -343,6 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu ul {
   margin: 4px 0 0 15px;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.08);
+  background:   #f6f6f6; 
 }
 
 .nav-menu ul li {
@@ -372,17 +373,18 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
   display: none;
   transition: all 0.4s;
   outline: none;
+  color: rgba(1, 40, 80, 0.9);
 }
 
 #mobile-nav-toggle i {
-  color: #333;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -398,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(1, 40, 80, 0.9);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -406,13 +408,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul {
-  padding: 0;
-  margin: 0;
+  margin-top: 40px;
   list-style: none;
 }
 
 #mobile-nav ul li {
-  position: static;
+  position: relative;
 }
 
 #mobile-nav ul li a {
@@ -442,14 +443,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
   cursor: pointer;
   color: #fff;
+  
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #499BCC;
+  color: #03C4EB;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #499BCC;
+  color: #03C4EB;
 }
 
 #mobile-body-overly {
@@ -475,6 +477,7 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Sections
