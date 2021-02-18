@@ -8,6 +8,9 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+  <!--FontAwesome-->
+  <script src="https://kit.fontawesome.com/de113c6d8d.js" crossorigin="anonymous"></script>
+
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
   <meta property="og:title" content="">
   <meta property="og:image" content="">
@@ -34,9 +37,11 @@
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+  
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="Icons/flaticon.css">
 
 </head>
 
@@ -47,20 +52,31 @@
   Hero Section
   ============================-->
   <section id="hero">
-    <div class="hero-container">
-      <div class="wow fadeIn">
-        <div class="hero-logo">
-          <img class="" src="img/header-2.png" alt="ProOnliPc">
-        </div>
 
-        <h1>OpeMedic</h1>
-        <h2>Distribuidora de <span class="rotating">medicamentos, insumos hospitalarios</span></h2>
-        <div class="actions">
-          <a href="#about" class="btn-get-started">Nosotros</a>
-          <a href="#contact" class="btn-services">Contacto</a>
-        </div>
+    <header class="header content">
+      <div class="header-video">
+        <video src="video/video.mp4" muted autoplay loop></video>
       </div>
-    </div>
+
+      <div class="header-overlay"></div>
+
+      <div class="hero-container">
+        <div class="wow fadeIn">
+          <div class="hero-logo">
+            <img class="" src="img/header-2.png" alt="ProOnliPc">
+          </div>
+  
+          <h1>OpeMedic</h1>
+          <h2>Distribuidora de <span class="rotating">medicamentos, insumos hospitalarios</span></h2>
+          <div class="actions">
+            <a href="#about" class="btn-get-started">Nosotros</a>
+            <a href="#contact" class="btn-services">Contacto</a>
+           
+          </div>
+  
+        </div>
+    </header>
+
   </section>
 
   <!--==========================
@@ -84,7 +100,7 @@
             </ul>
           </li>
           <li><a href="#services">¿Qué distribuimos?</a></li>
-          <li><a href="#portfolio">Clientes</a></li>
+          
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
@@ -175,22 +191,21 @@
         <div class="row" >
           <div class="col-md-4 service-item">
             <div class="row">
-              <div class="service-icon"><i class="fa fa-desktop"></i></div>
+              <div class="service-icon"><i class="flaticon-vitamin"></i></div>
                 <h4 class="service-title">Medicamentos genéricos</h4>
             </div>
            
           </div>
           <div class="col-md-4 service-item" > 
             <div class="row">
-            <div class="service-icon"><i class="fa fa-desktop"></i></div>
+            <div class="service-icon"><i class="flaticon-stethoscope"></i></div>
               <h4 class="service-title">Dispositivos médicos</h4>            
             </div>
             
-            <!--<div class="service-icon"><i class="fa fa-desktop"></i></div>-->
           </div>
           <div class="col-md-4 service-item" >
             <div class="row">
-              <div class="service-icon"><i class="fa fa-desktop"></i></div>
+              <div class="service-icon"><i class="flaticon-doctor-coat"></i></div>
               <h4 class="service-title">Dotaciones hospitalaria</h4>
             </div>
           </div>
@@ -206,7 +221,7 @@
   <section id="subscribe">
     <div class="container wow fadeInUp">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h3 class="subscribe-title">Experiencia Comercial</h3>
           <p class="subscribe-text">Llevamos más de 5 años brindando soluciones farmacéuticas a entidades prestadoras de saludtanto publicas como privadas</p>
         </div>
@@ -214,99 +229,6 @@
       </div>
     </div>
   </section>
-
-  <!--==========================
-  Porfolio Section
-  ============================-->
-  <section id="portfolio">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Clientes</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">Contamos con un amplio portafolio de clientes enlos siguientes municipios del departamento de Santander</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 1</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 2</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 3</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 4</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 5</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 6</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 7</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 8</h4>
-              <span>Alored dono par</span>
-            </div>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-
 
 
   <!--==========================
@@ -328,13 +250,13 @@
           
 
             <div>
-              <i class="fa fa-envelope"></i>
+              <i class="fa fa-envelope" style="margin-left: 20px;"></i>
               <p>ventas@opemedic.com</p>
               <p>gerencia@opemedic.com</p>
             </div>
 
             <div>
-              <i class="fa fa-phone"></i>
+              <i class="fa fa-phone" style="margin-left: 20px;"></i>
               <p>+57 321 8295 943</p>
               <p>+57 311 7181 311</p>
             </div>
